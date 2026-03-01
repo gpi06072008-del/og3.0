@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Gayatri ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="og/music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+
+  <h1>Happy Birthday Gayatri 🎂💖</h1>
+
+  <!-- Love Counter -->
+  <div class="love-counter">
+    ❤️ We have been together for:
+    <p id="counter"></p>
+  </div>
+
+  <!-- Auto Typing Letter -->
+  <div class="letter">
+    <p id="typingText"></p><span class="cursor">|</span>
+  </div>
+
+  <!-- Cake -->
+  <div class="cake" onclick="blowCandles()">
+    🎂
+    <p id="cakeText">Click the cake to blow candles 💕</p>
+  </div>
+
+  <!-- Memories -->
+  <div class="memories">
+    <h2>Our Memories 📸</h2>
+
+    <img src="og/poto1.jpg" class="photo">
+
+    <video controls src="og/video1.mp4"></video>
+    <video controls src="og/video2.mp4"></video>
+    <video controls src="og/video3.mp4"></video>
+    <video controls src="og/video4.mp4"></video>
+  </div>
+
+  <!-- Secret Message Button -->
+  <button class="secret-btn" onclick="unlockSecret()">Unlock Secret 💌</button>
+
+  <div id="secretMessage" class="secret">
+    You are my forever. My infinity. My everything. ❤️✨
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
